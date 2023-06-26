@@ -1,0 +1,54 @@
+@import "./App.css";
+
+.home__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.home__parent .home__secondary {
+  min-height: auto;
+  overflow: inherit;
+}
+
+.home__parent .home__secondary .home__child {
+  min-height: 79vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home__parent .home__secondary .home__child .home__content {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.home__parent .home__secondary .home__child .home__content h3 {
+  font-size: var(--major-font);
+  font-weight: var(--font-weight);
+  color: var(--gray);
+}
+
+.MuiFab-label {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 476px) {
+  .home__parent .home__secondary .home__child {
+    min-height: 81vh;
+  }
+
+  .home__parent .home__secondary .home__child .home__content h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .home__parent .home__secondary .home__child {
+    min-height: 83vh;
+  }
+}
