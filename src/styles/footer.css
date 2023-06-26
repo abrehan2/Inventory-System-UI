@@ -1,0 +1,43 @@
+@import "./App.css";
+
+.footer__parent {
+  overflow: hidden;
+  width: 100%;
+  background-color: var(--orange);
+  color: var(--white);
+  height: 85px;
+  margin-top: auto;
+}
+
+.footer__parent .footer__secondary {
+  overflow: inherit;
+  width: inherit;
+  height: 100%;
+}
+
+.footer__parent .footer__secondary .footer__child {
+  width: inherit;
+  overflow: inherit;
+  height: inherit;
+}
+
+.footer__parent .footer__secondary .footer__child footer {
+  width: inherit;
+  overflow: inherit;
+
+  height: inherit;
+}
+
+.footer__parent .footer__secondary .footer__child footer .footer__content {
+  width: inherit;
+  overflow: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.footer__parent .footer__secondary .footer__child footer .footer__content p {
+  font-weight: var(--font-weight);
+  font-size: var(--minor-font);
+}
