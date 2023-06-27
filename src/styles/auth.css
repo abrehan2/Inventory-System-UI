@@ -1,0 +1,144 @@
+@import "./App.css";
+
+.auth__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+  background-color: var(--orange);
+}
+
+.auth__parent .auth__secondary {
+  min-height: auto;
+  overflow: inherit;
+}
+
+.auth__parent .auth__secondary .auth__child {
+  min-height: 100vh;
+  overflow: inherit;
+}
+
+.auth__parent .auth__secondary .auth__child .auth__content {
+  overflow: hidden;
+  padding: 2rem;
+  text-align: center;
+}
+
+.auth__parent .auth__secondary .auth__child .auth__content h3 {
+  font-size: 5rem;
+  font-weight: var(--font-weight);
+  color: var(--white);
+}
+
+.css-qi2gsk:focus-visible {
+  border-color: none !important;
+  box-shadow: none;
+}
+
+/* LOGIN */
+.login__Stack {
+  overflow: hidden;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login__Stack .login__form {
+  width: 30%;
+  min-height: auto;
+  overflow: inherit;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.login__Stack .login__form .input__box {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.login__Stack .login__form .button__box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.login__Stack .login__form .button__box button {
+  width: 100%;
+}
+
+.login__Stack .login__form .link__box {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* REGISTER */
+.register__Stack {
+  overflow: hidden;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register__Stack .register__form {
+  width: 30%;
+  min-height: auto;
+  overflow: inherit;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.register__Stack .register__form .register__input__box {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.register__Stack .register__form .register__button__box {
+  text-align: center;
+  padding: 1rem;
+}
+
+.register__Stack .register__form .register__button__box button {
+  width: 100%;
+}
+
+.register__Stack .register__form .register__link__box {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 476px) {
+  .register__Stack .register__form,
+  .login__Stack .login__form {
+    width: 90%;
+  }
+
+  .register__Stack,
+  .login__Stack {
+    min-height: 82.5vh;
+  }
+
+  .auth__parent .auth__secondary .auth__child .auth__content h3 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .register__Stack .register__form,
+  .login__Stack .login__form {
+    width: 70%;
+  }
+
+  .register__Stack,
+  .login__Stack {
+    min-height: 82vh;
+  }
+}
