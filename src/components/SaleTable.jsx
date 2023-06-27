@@ -133,8 +133,8 @@ const SaleTable = ({ sales }) => {
             visible === "Vendors"
               ? setVisible("Dealers")
               : setVisible("Vendors")
-          }
-        >
+          }>
+          
           {visible === "Vendors" ? "Dealers" : "Vendors"}
         </Button>
       </div>
