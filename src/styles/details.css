@@ -1,0 +1,113 @@
+@import "./App.css";
+
+.details__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.details__parent .details__secondary {
+  overflow: inherit;
+  min-height: inherit;
+  display: flex;
+}
+
+.details__parent .details__secondary .details__child {
+  min-height: 78.6vh;
+  overflow: inherit;
+  width: 50vw;
+  padding: 2rem;
+}
+
+.details__parent .details__secondary .details__child .image__box {
+  height: 70vh;
+  overflow: hidden;
+}
+
+.details__parent .details__secondary .details__child .image__box img {
+  width: 100%;
+  height: 100%;  
+}
+
+.details__parent .details__secondary .child__two {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.details__parent .details__secondary .child__two .details__heading {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 2rem;
+  overflow: hidden;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.details__parent .details__secondary .child__two .details__description {
+  padding: 2rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-weight: 500;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.details__parent .details__secondary .child__two .details__description h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.details__parent .details__secondary .child__two .details__description p {
+  font-size: var(--extreme-font);
+}
+
+.details__parent .details__secondary .child__two .search__btn__box {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ant-btn-icon {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 476px) {
+  .details__parent .details__secondary {
+    flex-direction: column;
+  }
+
+  .details__parent .details__secondary .details__child {
+    min-height: 80.5vh;
+    width: 100vw;
+    order: 2;
+  }
+
+  .details__parent .details__secondary .child__two {
+    min-height: min-content;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .details__parent .details__secondary {
+    flex-direction: column;
+  }
+
+  .details__parent .details__secondary .details__child {
+    min-height: 80.5vh;
+    width: 100vw;
+    order: 2;
+  }
+  .details__parent .details__secondary .child__two {
+    min-height: min-content;
+    order: 1;
+  }
+}
