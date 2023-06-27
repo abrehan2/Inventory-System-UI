@@ -1,0 +1,107 @@
+@import "./App.css";
+
+.exp__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.exp__parent .exp__secondary {
+  overflow: inherit;
+  min-height: inherit;
+}
+
+.exp__parent .exp__secondary .exp__child {
+  min-height: inherit;
+  overflow: inherit;
+}
+
+.exp__parent .exp__secondary .exp__child .exp__content {
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.exp__parent .exp__secondary .exp__child .exp__content h3 {
+  font-size: var(--major-font);
+  font-weight: var(--font-weight);
+  color: var(--gray);
+}
+.exp__parent .exp__secondary .exp__child .exp__box {
+  overflow: hidden;
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  min-height: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 0;
+}
+
+.ant-btn-icon {
+  margin: 0 !important;
+  width: 100%;
+  height: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: hidden;
+  font-size: 1.5rem;
+}
+
+.exp__parent .exp__secondary .exp__child .exp__btn__box {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.exp__parent .exp__secondary .exp__child .exp__btn__box button {
+  height: 3rem;
+  width: 3rem;
+}
+
+.exp__parent
+  .exp__secondary
+  .exp__child
+  .exp__btn__box
+  .exp__modal
+  .exp__modal__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem !important;
+  overflow: hidden;
+}
+
+.hUmWQV {
+  background-color: var(--blue) !important;
+  color: var(--white) !important;
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 476px) {
+  .exp__parent .exp__secondary .exp__child .exp__box {
+    padding: 2rem;
+    padding-top: 0;
+  }
+
+  .exp__parent .exp__secondary .exp__child .exp__btn__box {
+    padding: 2rem;
+  }
+
+  .exp__parent .exp__secondary .exp__child .exp__content .exp {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .exp__parent .exp__secondary .exp__child .exp__box {
+    padding: 2rem;
+    padding-top: 0;
+  }
+
+  .exp__parent .exp__secondary .exp__child .exp__btn__box {
+    padding: 2rem;
+  }
+}
