@@ -20,6 +20,6 @@ const RawCard = ({ product }) => {
       </Link>
     </>
   );
-}
+};
 
 export default RawCard;
