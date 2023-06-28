@@ -1,0 +1,12 @@
+.batch__export {
+  overflow: hidden; 
+}
+
+.batch__export span {
+  font-weight: 500;
+}
+
+.batches__btn {
+  font-weight: 500;
+  background-color: red;
+}
