@@ -1,0 +1,15 @@
+.formula__export {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row-reverse;
+  column-gap: 0.5rem;
+}
+
+.formula__export span {
+  font-weight: 500;
+}
+
+.table__btn {
+  font-weight: 500;
+  background-color: red;
+}
