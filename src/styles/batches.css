@@ -1,0 +1,61 @@
+@import "./App.css";
+
+.batches__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.batches__parent .batches__secondary {
+  overflow: inherit;
+  min-height: inherit;
+}
+
+.batches__parent .batches__secondary .batches__child {
+  min-height: inherit;
+  overflow: inherit;
+}
+
+.batches__parent .batches__secondary .batches__child .batches__content {
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.batches__parent .batches__secondary .batches__child .batches__content h3 {
+  font-size: var(--major-font);
+  font-weight: var(--font-weight);
+  color: var(--gray);
+}
+
+.batches__parent .batches__secondary .batches__child .batches__box {
+  overflow: hidden;
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  min-height: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 0;
+  justify-content: flex-end;
+}
+
+.hUmWQV {
+  background-color: var(--blue) !important;
+  color: var(--white) !important;
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 476px) {
+  .batches__parent .batches__secondary .batches__child .batches__box {
+    padding: 2rem;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .batches__parent .batches__secondary .batches__child .batches__box {
+    padding: 2rem;
+    padding-top: 0;
+  }
+}
