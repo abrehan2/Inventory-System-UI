@@ -1,0 +1,43 @@
+.admin__raw__export {
+  overflow: hidden;
+}
+
+.admin__raw__export span {
+  font-weight: 500;
+}
+
+.admin__raw__actions {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+  overflow: hidden;
+}
+
+.admin__raw__actions .ant-btn {
+  font-weight: 500 !important;
+  background-color: red !important;
+}
+
+@media screen and (max-width: 476px) {
+  .admin__raw__actions {
+    flex-direction: column !important;
+    padding: 0.5rem 0rem;
+    row-gap: 0.5rem;
+  }
+
+  .admin__raw__actions button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .admin__raw__actions {
+    flex-direction: column !important;
+    padding: 0.5rem 0rem;
+    row-gap: 0.5rem;
+  }
+
+  .admin__raw__actions button {
+    width: 100%;
+  }
+}
