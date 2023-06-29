@@ -1,0 +1,107 @@
+@import "./App.css";
+
+.user__update__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.user__update__parent .user__update__secondary {
+  overflow: inherit;
+  min-height: inherit;
+}
+
+.user__update__parent .user__update__secondary .user__update__child {
+  min-height: inherit;
+  overflow: inherit;
+}
+
+.user__update__parent
+  .user__update__secondary
+  .user__update__child
+  .user__update__content {
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.user__update__parent
+  .user__update__secondary
+  .user__update__child
+  .user__update__content
+  h3 {
+  font-size: var(--major-font);
+  font-weight: var(--font-weight);
+  color: var(--gray);
+}
+
+.user__update__Stack {
+  overflow: hidden;
+  min-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.user__update__Stack .user__update__form {
+  width: 30%;
+  min-height: auto;
+  overflow: inherit;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.user__update__Stack .user__update__form .user__update__box {
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.user__update__Stack .user__update__form .user__update__button__box button {
+  width: 100%;
+}
+
+.user__update__Stack .user__update__form .user__update__button__box {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  column-gap: 1rem;
+}
+
+.user__update__Stack .user__update__form .user__update__top__btn {
+  display: flex;
+  justify-content: flex-end;
+  height: min-content;
+}
+
+@media screen and (max-width: 476px) {
+  .user__update__Stack {
+    min-height: 65.5vh;
+    padding: 0;
+  }
+
+  .user__update__Stack .user__update__form {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+
+  .user__update__Stack .user__update__form .user__update__button__box button {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .user__update__Stack {
+    min-height: 69vh;
+    padding: 0;
+  }
+
+  .user__update__Stack .user__update__form {
+    width: 70%;
+  }
+}
