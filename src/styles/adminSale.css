@@ -1,0 +1,48 @@
+@import "./App.css";
+
+.admin__sales__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.admin__sales__parent .admin__sales__secondary {
+  overflow: inherit;
+  min-height: inherit;
+}
+
+.admin__sales__parent .admin__sales__secondary .admin__sales__child {
+  min-height: inherit;
+  overflow: inherit;
+}
+
+.admin__sales__parent .admin__sales__secondary .admin__sales__child .admin__sales__content {
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.admin__sales__parent .admin__sales__secondary .admin__sales__child .admin__sales__content h3 {
+  font-size: var(--major-font);
+  font-weight: var(--font-weight);
+  color: var(--gray);
+}
+
+.admin__sales__parent .admin__sales__secondary .admin__sales__child .admin__sales__box {
+  overflow: hidden;
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  min-height: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-top: 0;
+  justify-content: flex-end;
+}
+
+.hUmWQV {
+  background-color: var(--blue) !important;
+  color: var(--white) !important;
+  font-size: 1rem !important;
+}
+
