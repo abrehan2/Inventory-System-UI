@@ -15,7 +15,6 @@
   column-gap: 0.5rem;
   overflow: hidden;
 }
-
 .admin__sales_actions .ant-btn {
   font-weight: 500 !important;
   background-color: red !important;
