@@ -1,0 +1,73 @@
+@import "./App.css";
+
+.users__parent {
+  overflow: hidden;
+  width: 100%;
+  min-height: auto;
+}
+
+.users__parent .users__secondary {
+  overflow: inherit;
+  min-height: inherit;
+}
+
+.users__parent .users__secondary .users__child {
+  min-height: inherit;
+  overflow: inherit;
+}
+
+.users__parent .users__secondary .users__child .users__content {
+  padding: 2rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.users__parent .users__secondary .users__child .users__content h3 {
+  font-size: var(--major-font);
+  font-weight: var(--font-weight);
+  color: var(--gray);
+}
+
+.users__parent .users__secondary .users__child .users__box {
+  overflow: hidden;
+  display: flex;
+  padding: 4rem;
+  width: 100%;
+  min-height: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hUmWQV {
+  background-color: var(--blue) !important;
+  color: var(--white) !important;
+  font-size: 1rem !important;
+}
+
+.users__parent .users__secondary .users__child .users__pagination__Box {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.users__parent .users__secondary .users__child .users__pagination__Box .page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 476px) {
+  .users__parent .users__secondary .users__child .users__box {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .users__parent .users__secondary .users__child .users__box {
+    padding: 2rem;
+  }
+}
