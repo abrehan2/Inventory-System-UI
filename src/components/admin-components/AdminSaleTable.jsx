@@ -73,7 +73,7 @@ const AdminSaleTable = ({ sales }) => {
     {
       name: "Actions",
       selector: (row) => row.actions,
-    },
+    }
   ];
   const dataVendor = [];
   const dataDealer = [];
