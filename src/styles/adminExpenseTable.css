@@ -1,0 +1,42 @@
+.admin__exp__export {
+  overflow: hidden;
+}
+.admin__exp__export span {
+  font-weight: 500;
+}
+
+.admin__exp_actions {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+  overflow: hidden;
+}
+
+.admin__exp_actions .ant-btn {
+  font-weight: 500 !important;
+  background-color: red !important;
+}
+
+@media screen and (max-width: 476px) {
+  .admin__exp_actions {
+    flex-direction: column !important;
+    padding: 0.5rem 0rem;
+    row-gap: 0.5rem;
+  }
+
+  .admin__exp_actions a button {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 476px) and (max-width: 768px) {
+  .admin__exp_actions {
+    flex-direction: column !important;
+    padding: 0.5rem 0rem;
+    row-gap: 0.5rem;
+  }
+
+  .admin__exp_actions a button {
+    width: 100%;
+  }
+}
