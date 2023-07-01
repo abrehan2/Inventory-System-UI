@@ -83,7 +83,7 @@ export const userReducer = createReducer(initialState, {
 
   CLEAR_MESSAGES: (state) => {
     state.message = null;
-  },
+  }
 });
 
 // PROFILE -
