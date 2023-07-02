@@ -16,7 +16,7 @@ import {
   UPDATE_ADMIN_PRODUCT_SUCCESS,
   UPDATE_ADMIN_PRODUCT_FAIL,
   CLEAR_MESSAGES,
-  CLEAR_ERRORS
+  CLEAR_ERRORS,
 } from "../../../helpers/Constants";
 
 // PARTIALS -
