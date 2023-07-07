@@ -5,7 +5,7 @@ This is a front-end of the [Inventory-System-API](https://github.com/abrehan2/In
 https://github.com/abrehan2/Inventory-System-UI/assets/100872683/755975a1-b978-4a92-90d4-3d0992756032
 
 # Acknowledgements
-### `Role:` User
+### `Role: User`
 
 | Feature           | Description                                                                                     |
 | ----------------- | ----------------------------------------------------------------------------------------------- |
