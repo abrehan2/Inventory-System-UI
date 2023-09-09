@@ -7,11 +7,11 @@ https://github.com/abrehan2/Inventory-System-UI/assets/100872683/755975a1-b978-4
 # Acknowledgements
 ### `Role:` User
 
-| Feature | Description                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Authentication | A user needs to register their account and then login to use the web application |
-| Profile update | A user can update their profile |
-| Reset password | A user can reset their password by receiving a link in their email |
-| Formula creation | A user can create a batch of the available formulas, which can then be utilized to update the stock for raw materials |
-| Expense | A user can track and export their expense records |
-| Sales | A user can track and export their sales records |
+| Feature           | Description                                                                                     |
+| ----------------- | ----------------------------------------------------------------------------------------------- |
+| Authentication    | Users need to register their account and then log in to use the web application                |
+| Profile Update    | Users can update their profile                                                                  |
+| Reset Password    | Users can reset their password by receiving a link in their email                                |
+| Formula Creation  | Users can create a batch of available formulas, which can then be utilized to update stock for raw materials |
+| Expense           | Users can create, track, and export their expense records                                      |
+| Sales             | Users can create, track, and export their sales records                                        |
