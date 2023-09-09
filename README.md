@@ -1,4 +1,4 @@
-# `Inventory-System-UI`
+### `Inventory-System-UI`
 This is a front-end of the [Inventory-System-API](https://github.com/abrehan2/Inventory-System-API.git)
-## Demo
-https://github.com/abrehan2/Inventory-Control-System/assets/100872683/5b43ab09-72ab-4ee4-b300-b545adb9df18
+#### Demo
+<div style="width:100%;height:0px;position:relative;padding-bottom:52.656%;"><iframe src="https://streamable.com/e/hnt2h9" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
