@@ -1,16 +1,16 @@
 > This is a front-end of the [Inventory-System-API](https://github.com/abrehan2/Inventory-System-API.git)
 
-# Demo
-
 https://github.com/abrehan2/Inventory-System-UI/assets/100872683/755975a1-b978-4a92-90d4-3d0992756032
 
-### Run the command below to install the client-side dependencies
+### Run the commands below to get started ⚙️
+```nodejs
+  git clone https://github.com/abrehan2/Inventory-System-UI.git
+```
 ```nodejs
   npm install
 ```
 
-# Acknowledgements
-
+# Acknowledgements 🔎
 ### `Role: User`
 
 | Feature           | Description                                                                                     |
@@ -31,3 +31,19 @@ https://github.com/abrehan2/Inventory-System-UI/assets/100872683/755975a1-b978-4
 | Formula Management  | Admins can update and delete formulas and their batches                                                        |
 | Expense Management  | Admins can track, update, and delete expense records                                                            |
 | Sales Management    | Admins can track, update, and delete sales records
+
+# Front-End Structure 🛠
+    .
+    ├── public          # Root folder that provides a context for React.js to render      
+    |   ├── index.html          
+    |
+    ├── src             # Folder containing JavaScript code                     
+    │   └── components  # Stores components to be rendered throughout the application
+    │   └── helpers     # Stores information about routes, the data to be rendered, and the constants for Redux actions
+    │   └── pages       # Stores all the pages to be rendered throughout the application
+    │   └── redux       # Stores all the reducers and their actions
+    │   └── routes      # Stores all the page routes
+    │   └── styles      # Stores all the CSS styles to be rendered throughout the application
+    |   ├── App.js      # Root component
+    |   ├── index.js    # Entry point for a server
+    └──   
