@@ -45,5 +45,5 @@ https://github.com/abrehan2/Inventory-System-UI/assets/100872683/755975a1-b978-4
     │   └── routes      # Stores all the page routes
     │   └── styles      # Stores all the CSS styles to be rendered throughout the application
     |   ├── App.js      # Root component
-    |   ├── index.js    # Entry point for a server
+    |   ├── index.js    # Entry point 
     └──   
