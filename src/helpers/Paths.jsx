@@ -1,5 +1,5 @@
 // PARTIALS -
-const serverRoute = "http://localhost:5000/hi-class-feed";
+const serverRoute = "https://inventory-system-api.vercel.app/hi-class-feed";
 
 // RAW MATERIALS -
 export const GET_RAW_MATERIALS = `${serverRoute}/products`;
