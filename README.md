@@ -32,7 +32,7 @@ https://github.com/abrehan2/Inventory-System-UI/assets/100872683/755975a1-b978-4
 | Expense Management  | An admin can track, update, and delete expense records                                                            |
 | Sales Management    | An admin can track, update, and delete sales records
 
-# Front-End Structure 🛠
+# Front-end Structure 🛠
     .
     ├── public          # Root folder that provides a context for React.js to render      
     |   ├── index.html          
